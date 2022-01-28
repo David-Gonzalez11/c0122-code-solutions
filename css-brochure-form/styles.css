@@ -11,25 +11,28 @@ h2 {
 
 .company {
   padding: 5px;
-  border-radius: 4px;
+  border-radius: 6px;
   width: 100%;
   display: block;
   margin: 5px;
   font-family: "Brandon Grotesque", sans-serif;
   font-size: smaller;
   border-color: lightgrey;
+  border-style: solid;
 }
 
 #hiring,
 #name {
   padding: 5px;
-  border-radius: 4px;
+  border-radius: 6px;
   width: 100%;
   display: block;
   margin: 5px;
   padding-left: 7px;
   font-family: "Brandon Grotesque", sans-serif;
   font-size: smaller;
+  border-style: solid;
+  border-color: lightgray;
 }
 
 .engineers {
@@ -42,8 +45,8 @@ h2 {
 .button {
   display: inline-block;
   width: 90px;
-  height: 30px;
-  border-radius: 15px;
+  height: 32px;
+  border-radius: 20px;
   background-color: rgb(237 103 98);
   color: white;
   border: none;
@@ -67,7 +70,7 @@ select {
 .btn {
   padding: 6px;
   text-align: right;
-  padding-top: 0;
+  padding-top: 2px;
   padding-left: 50px;
 }
 
@@ -76,7 +79,6 @@ input {
 }
 
 /* This is where all my headings above text boxes will go */
-.months,
 .comp,
 .where,
 .name {
@@ -96,5 +98,12 @@ input {
 /* -- figure out hot to use nth-child/*
 /* figure out how to use pseudo class selectors */
 ::placeholder {
-  color: lightgray;
+  color: rgb(204 204 204);
+}
+
+.months {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  padding-left: 10px;
 }
