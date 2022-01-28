@@ -17,8 +17,8 @@
 
   /* your code here */
   position: absolute;
-  left: 240px;
-  top: 10px;
+  top: 1rem;
+  right: 1rem;
 }
 
 .joke {
@@ -41,8 +41,7 @@
   /* your code here */
   position: absolute;
   top: 0;
-  bottom: 0;
-  right: 0;
   left: 0;
-  height: 300px;
+  right: 0;
+  bottom: 0;
 }
