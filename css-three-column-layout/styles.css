@@ -1,6 +1,6 @@
 .bubbles {
   display: flex;
-  margin: auto;
+  margin: 0;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -20,18 +20,19 @@ body {
 }
 
 img {
-  width: 180px;
+  width: 120px;
   clip-path: circle();
   background-color: white;
-  padding: 50px;
+  padding: 25px;
 }
 
 .title {
   padding-left: 20%;
+  padding-right: 10%;
   color: white;
   font-size: 20px;
   font-family: lato, sans-serif;
-  justify-content: center;
+  width: 100%;
 }
 
 h1 {
@@ -41,6 +42,7 @@ h1 {
   font-family: lato, sans-serif;
   padding: 0;
   padding-top: 10px;
+  display: inline-block;
 }
 
 p {
@@ -49,21 +51,12 @@ p {
   font-weight: 400;
 }
 
-div.second {
-  padding: auto%;
-}
-
 div.header {
   padding-bottom: 40px;
 }
 
-h2 {
-  text-align: justify;
-}
-
 p.text {
-  font-size: normal;
-  font-weight: 400;
+  font-size: medium;
   font-family: lato, sans-serif;
   line-height: 1.5em;
 }
@@ -72,5 +65,19 @@ p.text {
 .tools,
 .board {
   font-family: lato, sans-serif;
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
+  padding-right: 10%;
+}
+
+div.first {
+  padding-left: 15%;
+}
+
+.text {
+  text-align: left;
+}
+
+h1.stream {
+  padding-right: 10%;
 }
