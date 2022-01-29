@@ -1,7 +1,6 @@
 form {
-  width: 60%;
+  width: 80%;
   margin: auto;
-  padding-top: 100px;
 }
 
 h2 {
@@ -14,7 +13,7 @@ h2 {
   border-radius: 6px;
   width: 100%;
   display: block;
-  margin: 5px;
+  margin: 5px 0;
   font-family: "Brandon Grotesque", sans-serif;
   font-size: smaller;
   border-color: lightgrey;
@@ -27,7 +26,7 @@ h2 {
   border-radius: 6px;
   width: 100%;
   display: block;
-  margin: 5px;
+  margin: 5px 0;
   padding-left: 7px;
   font-family: "Brandon Grotesque", sans-serif;
   font-size: smaller;
@@ -36,7 +35,7 @@ h2 {
 }
 
 .engineers {
-  margin: 5px;
+  margin: 5px 0;
   font-weight: none;
   color: rgb(125 125 125);
   font-size: smaller;
@@ -45,13 +44,12 @@ h2 {
 .button {
   display: inline-block;
   width: 80px;
-  height: 25px;
+  height: 30px;
   border-radius: 20px;
   background-color: rgb(237 103 98);
   color: white;
   border: none;
   text-align: center;
-  margin-left: 40px;
 }
 
 body {
@@ -68,10 +66,10 @@ select {
 }
 
 .btn {
-  padding: 6px;
   text-align: right;
   padding-top: 4px;
-  width: 103%;
+  width: 100%;
+  display: inline-block;
 }
 
 input {
@@ -95,8 +93,6 @@ input {
   font-size: medium;
 }
 
-/* -- figure out hot to use nth-child/*
-/* figure out how to use pseudo class selectors */
 ::placeholder {
   color: rgb(204 204 204);
 }
