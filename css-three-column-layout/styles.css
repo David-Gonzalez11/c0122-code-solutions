@@ -1,22 +1,11 @@
-.bubbles {
-  display: flex;
-  margin: 0;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
 body {
   background-color: rgb(27 150 217);
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding-top: 0;
+  margin: 0;
 }
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 15px;
+  padding: 10px;
 }
 
 img {
@@ -26,58 +15,77 @@ img {
   padding: 25px;
 }
 
-.title {
-  padding-left: 20%;
-  padding-right: 10%;
-  color: white;
-  font-size: 20px;
-  font-family: lato, sans-serif;
-  width: 100%;
+.row {
+  display: flex;
 }
 
 h1 {
   color: white;
   font-size: 20px;
-  text-align: center;
   font-family: lato, sans-serif;
+  font-weight: 400;
   padding: 0;
-  padding-top: 10px;
-  display: inline-block;
+  width: 100%;
 }
 
 p {
   color: white;
-  font-family: lato, sans-serif;
-  font-weight: 400;
-}
-
-div.header {
-  padding-bottom: 40px;
-}
-
-p.text {
-  font-size: medium;
-  font-family: lato, sans-serif;
-  line-height: 1.5em;
-}
-
-.stream,
-.tools,
-.board {
-  font-family: lato, sans-serif;
+  font-family: Lato, sans-serif;
   font-style: normal;
-  font-weight: 400;
-  padding-right: 10%;
+  line-height: 30px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  padding: 0;
 }
 
-div.first {
+div.columnqms {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.fullcolumn {
+  width: 100%;
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+div.columnmiddle {
+  width: 100%;
+  padding-left: 25px;
+}
+
+div.toolsbubble {
   padding-left: 15%;
 }
 
-.text {
-  text-align: left;
+.streampara {
+  padding-left: 20%;
 }
 
-h1.stream {
-  padding-right: 10%;
+.qmsimg {
+  padding-left: 25%;
+}
+
+div.columnright {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 5%;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.onboarding {
+  padding-left: 15px;
+}
+
+.indepthimg {
+  padding-left: 10%;
 }
