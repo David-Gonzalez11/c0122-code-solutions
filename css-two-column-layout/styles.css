@@ -1,28 +1,55 @@
-.title {
+.container {
+  width: 1000px;
+  margin: auto;
+  padding-top: 40px;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.intuitive-forcolumn {
+  background-color: white;
+  height: 100%;
+  width: 500px;
+}
+
+.heading {
   text-align: center;
   font-family: Karla, sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: larger;
+  font-weight: 400;
+  font-size: 50px;
+  padding-left: 20%;
+  width: 100%;
+  padding-bottom: 40px;
+  padding-right: 40px;
 }
 
-.container {
-  width: 900px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  padding-top: 40px;
+.medicine-datacolumn {
+  background-color: white;
+  width: 500px;
+  height: 100%;
 }
 
-.col1 {
-  float: left;
-  width: 450px;
+p,
+h2 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: medium;
+  line-height: 1.5rem;
+  margin: 10px;
 }
 
-.col2 {
-  float: right;
-  width: 450px;
-  padding-left: 10%;
+.button {
+  text-align: center;
+  padding-top: 15px;
+  height: 50%;
+  display: inline-block;
+  width: 100%;
+  padding-right: 30px;
 }
 
 .btn {
@@ -35,52 +62,37 @@
   padding-right: 30px;
 }
 
-.button {
-  text-align: center;
-  padding-top: 15px;
-  height: 50%;
-  display: inline-block;
-  width: 100%;
-}
-
-p,
-h2 {
-  font-family: Karla, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: medium;
-  line-height: 1.5rem;
-}
-
-img {
-  float: left;
-  padding-bottom: 30px;
-}
-
-p {
-  color: rgb(139 139 139);
-  font-family: Karla, sans-serif;
-  padding: 0;
-  margin-top: 5px;
-}
-
-.title-font {
-  font-size: medium;
-  width: 44%;
-  text-align: center;
-  margin: auto;
-}
-
 h2 {
   font-family: Karla, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: smaller;
-  padding-top: 5%;
   margin-bottom: 0;
+  width: 60%;
 }
 
-.offset {
-  justify-content: center;
-  padding-left: 40%;
+p.paragagraphsinline {
+  color: rgb(139 139 139);
+  font-family: Karla, sans-serif;
+  padding: 0;
+  display: inline-block;
+  width: 50%;
+}
+
+img {
+  float: left;
+}
+
+.title {
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  width: 100%;
+  align-content: center;
+  line-height: 2rem;
+}
+
+.maintitle {
+  width: 100%;
+  padding-right: 25px;
 }
