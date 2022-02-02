@@ -9,10 +9,14 @@
   display: flex;
 }
 
-.intuitive-forcolumn {
+.column-half {
   background-color: white;
   height: 100%;
-  width: 500px;
+  flex-basis: 50%;
+}
+
+.column-header {
+  margin-top: 35px;
 }
 
 .heading {
@@ -21,16 +25,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
-  padding-left: 20%;
   width: 100%;
   padding-bottom: 40px;
   padding-right: 40px;
-}
-
-.medicine-datacolumn {
-  background-color: white;
-  width: 500px;
-  height: 100%;
 }
 
 p,
@@ -44,12 +41,8 @@ h2 {
 }
 
 .button {
-  text-align: center;
-  padding-top: 15px;
-  height: 50%;
-  display: inline-block;
-  width: 100%;
-  padding-right: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
@@ -94,5 +87,4 @@ img {
 
 .maintitle {
   width: 100%;
-  padding-right: 25px;
 }
