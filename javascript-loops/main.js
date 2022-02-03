@@ -14,18 +14,16 @@ function getNumbersToTen() {
     numbers.push((currentNumber));
     currentNumber++;
   }
-  console.log('getNumbersToTen:', numbers);
   return numbers;
 }
 
 function getEvenNumbersToTwenty() {
   var evenNumbers = [];
   var currentNumber = 2;
-  while (currentNumber < 22) {
+  while (currentNumber <= 20) {
     evenNumbers.push((currentNumber));
     currentNumber += 2;
   }
-  console.log('getEvenNumbersTwenty:', evenNumbers);
   return evenNumbers;
 }
 
@@ -43,18 +41,31 @@ repeatWord('hello', 5);
 
 function logEachCharacter(string) {
   for (var i = 0; i < string.length; i++) {
-    console.log('logEachCharacter:', string);
+    console.log(string[i]);
   }
-  console.log(string[i]);
 }
 logEachCharacter('David');
 
 function doubleAll(numbers) {
   var doubled = [];
   for (var i = 0; i < numbers.length; i++) {
-    numbers[i].push(doubled);
+    doubled.push(numbers[i] * 2);
   }
-  console.log(numbers[i]);
-  numbers.push((doubled));
   return doubled;
+}
+
+function getKeys(object) {
+  var keys = [];
+  for (var key in object) {
+    keys.push(key);
+  }
+  return keys;
+}
+
+function getValues(object) {
+  var values = [];
+  for (var key in object) {
+    values.push(object[key]);
+  }
+  return values;
 }
