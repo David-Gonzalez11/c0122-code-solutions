@@ -1,0 +1,68 @@
+.container {
+  width: 1000px;
+  margin: auto;
+  background-color: rgb(247 248 250);
+  padding-right: 3;
+}
+
+.column1 {
+  width: 25%;
+  padding-left: 50px;
+  padding-top: 5%;
+}
+
+.row {
+  display: flex;
+}
+
+.columnsbottom {
+  padding-left: 5%;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.btmimg {
+  width: 20%;
+  padding-left: 40%;
+  padding-bottom: 0;
+}
+
+.functions {
+  display: inline-block;
+  padding-left: 9%;
+  font-size: xx-small;
+  font-family: Barlow, sans-serif;
+  width: 100%;
+}
+
+h3 {
+  color: black;
+  font-size: 16px;
+  padding-top: 0;
+  font-family: Barlow, sans-serif;
+}
+
+.subheadings {
+  padding-left: 30%;
+  color: black;
+  font-family: Barlow, sans-serif;
+}
+
+.heading {
+  color: rgb(0 0 0);
+  margin: auto;
+}
+
+h2 {
+  color: black;
+  font-family: Barlow, sans-serif;
+}
+
+h4 {
+  font-size: 11px;
+  font-family: Barlow, sans-serif;
+  color: black;
+}
