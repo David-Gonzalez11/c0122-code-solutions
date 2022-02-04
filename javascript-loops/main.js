@@ -53,6 +53,7 @@ function doubleAll(numbers) {
   }
   return doubled;
 }
+console.log(doubleAll(4));
 
 function getKeys(object) {
   var keys = [];
@@ -61,6 +62,7 @@ function getKeys(object) {
   }
   return keys;
 }
+getKeys();
 
 function getValues(object) {
   var values = [];
@@ -69,3 +71,4 @@ function getValues(object) {
   }
   return values;
 }
+getValues();
