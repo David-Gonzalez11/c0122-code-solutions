@@ -1,0 +1,25 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  width: calc(100% / 5);
+}
+
+.retail {
+  color: grey;
+}
+
+.columntwos {
+  padding-left: 10%;
+  width: calc(100% / 5);
+}
+
+img {
+  width: 60%;
+}
