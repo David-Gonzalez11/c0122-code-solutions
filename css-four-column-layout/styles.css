@@ -7,7 +7,6 @@
 
 .column1 {
   width: 25%;
-  padding-left: 50px;
   padding-top: 5%;
 }
 
@@ -16,7 +15,6 @@
 }
 
 .columnsbottom {
-  padding-left: 5%;
   width: 100%;
 }
 
@@ -32,7 +30,7 @@ img {
 
 .functions {
   display: inline-block;
-  padding-left: 9%;
+  padding-left: 6%;
   font-size: xx-small;
   font-family: Barlow, sans-serif;
   width: 100%;
@@ -62,8 +60,7 @@ h2 {
 }
 
 div > p {
-  font-size: 10px;
+  font-size: 12px;
   font-family: Barlow, sans-serif;
-  padding-left: 12px;
   padding-bottom: 6px;
 }
