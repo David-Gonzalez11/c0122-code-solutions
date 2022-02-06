@@ -1,5 +1,5 @@
 .container {
-  width: 900px;
+  width: 1000px;
   margin: auto;
 }
 
@@ -21,19 +21,18 @@ img {
 }
 
 .header {
-  margin: 0;
-  width: 100%;
+  width: 50%;
   padding-bottom: none;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   padding-left: 40%;
+  font-size: 25px;
+  font-family: sans-serif;
 }
 
 p {
   color: rgb(228 228 228);
-}
-
-.lv {
-  background-image: url("https://lfz-lms.herokuapp.com/code-exercises/Learning-Fuze/curriculum/css-ecommerce-page?v=e92d9c27cde52bc835e8d53bfd7711e3f8919a9b");
-  height: 100%;
 }
 
 img.lv {
@@ -50,7 +49,6 @@ span {
 
 .currentprice {
   color: black;
-  padding-bottom: none;
 }
 
 del {
@@ -58,9 +56,23 @@ del {
 }
 
 .column1.yves {
-  width: 20%;
+  width: 25%;
 }
 
 span.line {
   color: rgb(228 228 228);
+}
+
+.yvesbag {
+  height: 63%;
+}
+
+.brand.lv {
+  display: inline-block;
+  width: 100%;
+}
+
+p.currentprice.lvp {
+  padding-top: 5px;
+  margin: 0;
 }
