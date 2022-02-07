@@ -1,15 +1,15 @@
 /* exported getWords */
 function getWords(string) {
-  var wordlist = [];
+  var list = [];
   var currentword = '';
   for (var i = 0; i < string.length; i++) {
     if (string[i] !== ' ') {
       currentword += string[i];
     } else {
-      wordlist.push(currentword);
+      list.push(currentword);
       currentword = '';
     }
   }
-  wordlist.push(currentword);
-  return wordlist;
+  list.push(currentword);
+  return list;
 }
