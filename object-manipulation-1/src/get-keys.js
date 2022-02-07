@@ -1,5 +1,8 @@
 /* exported getKeys */
 function getKeys(object) {
-  var key = object.keys;
-  return key;
+  var arr = [];
+  for (var key in object) {
+    arr.push(key);
+  }
+  return arr;
 }
