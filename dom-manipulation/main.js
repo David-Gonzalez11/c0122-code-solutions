@@ -1,23 +1,22 @@
 var count = 0;
-var userClicks = document.querySelector('.hot-button');
+var colorButton = document.querySelector('.hot-button');
 var clickCount = document.querySelector('.click-count');
 
 function button(event) {
   count++;
   clickCount.textContent = 'Clicks: ' + count;
-  if (userClicks < 4) {
-    return 'cold';
-  } else if (userClicks < 7) {
-    return 'cool';
-  } else if (userClicks < 10) {
-    return 'tepid';
-  } else if (userClicks < 13) {
-    return 'warm';
-  } else if (userClicks < 16) {
-    return 'hot';
+  if (count < 4) {
+    colorButton.className = 'hot-button cold';
+  } else if (count < 7) {
+    colorButton.className = 'hot-button cool';
+  } else if (count < 10) {
+    colorButton.className = 'hot-button tepid';
+  } else if (count < 13) {
+    colorButton.className = 'hot-button warm';
+  } else if (count < 16) {
+    colorButton.className = 'hot-button hot';
   } else {
-    return 'nuclear';
+    colorButton.className = 'hot-button nuclear';
   }
-
 }
-userClicks.addEventListener('click', button);
+colorButton.addEventListener('click', button);
