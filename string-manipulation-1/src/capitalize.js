@@ -6,6 +6,11 @@
 // split the words apart to target which chaeacter you need
 // retunr the result chracter(capitalized).
 function capitalize(word) {
-  var capital = word.charAt(0).toUpperCase() + word.slice(1);
-  return capital;
+  var arr = word.toLowerCase().split(' ');
+
+  var result = arr.map(function (val) {
+
+    return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
+  });
+  return result.join(' ');
 }
