@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 11px;
 }
 
@@ -23,6 +23,7 @@ body {
 
 img {
   width: 100%;
+  padding-bottom: 3%;
 }
 
 .header {
@@ -32,9 +33,10 @@ img {
   align-items: center;
   margin: auto;
   padding-left: 40%;
-  font-size: 25px;
-  font-family: sans-serif;
-  font-weight: 500;
+  font-size: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 p {
@@ -47,19 +49,20 @@ img.lv {
 
 .brand {
   color: black;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  margin-top: 2px;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 span {
   color: rgb(228 228 228);
+  font-size: 10px;
+  padding-left: 1px;
 }
 
 .currentprice {
   color: black;
+  margin-top: 0;
 }
 
 del {
@@ -73,7 +76,7 @@ span.line {
 }
 
 .yvesbag {
-  height: 63%;
+  height: 65%;
   width: 100%;
   padding-top: 20%;
 }
