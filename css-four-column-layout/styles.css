@@ -1,13 +1,14 @@
 .container {
   width: 1000px;
   margin: auto;
-  background-color: rgb(247 248 250);
-  padding-right: 3;
+  background-color: #f7f8fa;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .column1 {
   width: 25%;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 .row {
@@ -57,6 +58,8 @@ div > h3 {
 h2 {
   color: black;
   font-family: Barlow, sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
 }
 
 div > p {
