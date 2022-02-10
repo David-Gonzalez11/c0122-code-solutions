@@ -8,7 +8,7 @@
 }
 
 img {
-  padding-top: 15px;
+  padding-top: 30px;
   width: 20%;
   display: inline-block;
 }
@@ -26,11 +26,20 @@ img {
 .btn {
   background-color: rgb(41 68 99);
   border: none;
-  border-radius: 2px;
+  border-radius: 3px;
   margin: 0;
   white-space: nowrap;
-  padding: (10px, 30px, 10px, 30px);
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+
+  /* padding-left: 30px; */
+
   color: rgb(217 222 228);
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
 }
 
 .columnlearnmore {
@@ -47,15 +56,16 @@ img {
 }
 
 .canvas {
-  padding-top: 4%;
+  padding-top: 5%;
   background-color: rgb(82 83 81);
   color: white;
   padding-left: 10%;
-  padding-bottom: 40px;
+  padding-bottom: 10%;
   font-family: Avenir, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: smaller;
+  line-height: 15px;
 }
 
 .companycolumn {
@@ -97,31 +107,41 @@ img {
 }
 
 .heroimg {
-  padding-top: 20px;
+  padding-top: 50px;
   position: relative;
   left: 8%;
-  width: 85%;
+  width: 100%;
   align-content: center;
   justify-content: center;
+  padding-right: 15%;
 }
 
 .herobutton {
   background-color: rgb(41 68 99);
   color: rgb(226 226 226);
   padding: 10px;
-  padding-right: 20px;
-  padding-bottom: 22px;
-  padding-left: 20px;
-  border-radius: 2px;
+  padding-right: 40px;
+  padding-bottom: 32px;
+  padding-left: 40px;
+
+  /* padding-top: 12px; */
+  border-radius: 4px;
   margin: 0;
   height: 7px;
   border: none;
+  position: absolute;
+  top: 21rem;
+  left: 7rem;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
 }
 
 .overlayimg {
   position: absolute;
   top: 10rem;
-  left: 25%;
+  left: 32rem;
   color: white;
   line-height: 25px;
   width: 30%;
@@ -129,6 +149,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  padding-left: 5%;
 }
 
 .p {
@@ -144,7 +165,7 @@ img {
   align-content: center;
   margin-top: 5%;
   height: 20%;
-  padding-left: 20%;
+  padding-left: 25%;
 }
 
 .contact-us-btn {
@@ -164,6 +185,7 @@ img {
   padding-left: 35%;
   padding-top: 15px;
   padding-bottom: 20px;
+  border-bottom: 1px solid rgb(232 234 237);
 }
 
 .contact-us {
@@ -182,6 +204,7 @@ img {
   width: 20%;
   padding-left: 10%;
   padding-top: 0;
+  border-bottom: 1px solid rgb(232 234 237);
 }
 
 .prefer-canvas-center {
@@ -207,7 +230,14 @@ img {
 .physiciancenter {
   display: inline-block;
   line-height: 35px;
-  width: 50%;
+  width: 65%;
+  margin: 0;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: smaller;
 }
 
 .locations {
@@ -217,13 +247,18 @@ img {
 }
 
 h5 {
-  color: rgb(191 191 191);
+  color: rgb(177 177 177);
 }
 
 .productlist {
   color: white;
 }
 
-hr {
-  width: 100%;
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 75%));
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
+  bottom: 30rem;
 }
