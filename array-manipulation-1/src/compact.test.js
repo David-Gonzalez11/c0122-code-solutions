@@ -1,7 +1,6 @@
 /* global expect, banMethods, compact */
 
 describe('compact(array)', function () {
-
   beforeEach(function () {
     expect(compact).to.be.a('function');
     banMethods(compact, 'slice', 'splice', 'pop', 'shift', 'filter');
@@ -48,5 +47,4 @@ describe('compact(array)', function () {
     var output = compact(input);
     expect(output).to.deep.equal([1, 'a', {}, [], true]);
   });
-
 });
