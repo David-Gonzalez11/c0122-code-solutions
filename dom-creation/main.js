@@ -74,15 +74,22 @@ function renderPokemon(pokemon) {
   number.textContent = '#' + pokemon.number;
 
   var description = document.createElement('p');
-  description.textContent = pokemon;
+  description.textContent = pokemon.description;
+
+  var pokemonCardtext = document.createElement('div');
 
   columnthird.appendChild(pokemonCard);
   pokemonCard.appendChild(image);
-  pokemonCard.appendChild(pokemonCard.Text);
-  pokemonCard.Text.appendChild(name);
-  pokemonCard.Text.appendChild(number);
-  pokemonCard.Text.appendChild(description);
+  pokemonCard.appendChild(pokemonCardtext);
+  pokemonCardtext.appendChild(name);
+  pokemonCardtext.appendChild(number);
+  pokemonCardtext.appendChild(description);
 
   // under here is right
+  return columnthird;
 }
-renderPokemon();
+var row = document.querySelector('.row');
+for (var i = 0; i < pokedex.length; i++) {
+  var pokemon = renderPokemon(pokedex[i]);
+  row.appendChild(pokemon);
+}
