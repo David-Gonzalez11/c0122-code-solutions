@@ -130,8 +130,8 @@ img {
   height: 7px;
   border: none;
   position: absolute;
-  top: 21rem;
-  left: 7rem;
+  top: 23rem;
+  left: 4rem;
   font-family: "Tiempos Headline", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -140,8 +140,8 @@ img {
 
 .overlayimg {
   position: absolute;
-  top: 10rem;
-  left: 32rem;
+  top: 8rem;
+  left: 23rem;
   color: white;
   line-height: 25px;
   width: 30%;
@@ -159,6 +159,7 @@ img {
 }
 
 .clinicians {
+  display: inline-block;
   width: 100%;
   background-color: rgb(250 250 250);
   color: rgb(110 110 110);
@@ -254,11 +255,13 @@ h5 {
   color: white;
 }
 
-.overlay {
-  background: linear-gradient(transparent, rgb(0 0 0 / 75%));
+.over {
+  background: linear-gradient(transparent, rgb(0 0 0 / 40%));
   position: absolute;
-  top: 10rem;
-  left: 0;
+  top: 7rem;
+  left: 24rem;
   right: 0;
-  bottom: 30rem;
+  bottom: 20rem;
+  width: 53%;
+  height: 53%;
 }
