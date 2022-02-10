@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+}
+
+.firstdiv {
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgb(250 234 132);
+  margin-top: 20%;
+  margin-left: 40%;
+  width: 100px;
+  height: 100px;
+  padding: 5%;
+  box-shadow: 1px 1px 5px 5px rgb(250 234 132);
+}
+
+.on {
+  background-color: grey;
+  box-shadow: none;
+}
+
+body {
+  background-color: rgb(254 249 241);
+}
