@@ -15,11 +15,7 @@
   box-shadow: 1px 1px 5px 5px rgb(250 234 132);
 }
 
-.on {
+.off {
   background-color: grey;
   box-shadow: none;
-}
-
-body {
-  background-color: rgb(254 249 241);
 }

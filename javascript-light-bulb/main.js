@@ -5,7 +5,7 @@ function handleClick(event) {
   if (isBulbOn === true) {
     div.className = 'firstdiv';
   } else if (isBulbOn === false) {
-    div.className = 'firstdiv on';
+    div.className = 'firstdiv off ';
   }
   isBulbOn = !isBulbOn;
 }
