@@ -18,7 +18,7 @@ var books = [
 console.log('arr type:', typeof books);
 console.log('JSON result:', typeof JSON.stringify(books));
 
-var studentJSON = '{ "id": 1, "name": "Jeff"}';
+var studentJSON = '{ "id": 1, "name": "David"}';
 
 console.log('studentJSON:', studentJSON);
 console.log('typeof studentJSON:', typeof studentJSON);
