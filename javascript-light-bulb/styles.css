@@ -16,6 +16,10 @@
 }
 
 .off {
-  background-color: grey;
+  background-color: rgb(37 37 37);
   box-shadow: none;
+}
+
+body.back {
+  background-color: black;
 }
