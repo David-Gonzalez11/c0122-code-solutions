@@ -16,9 +16,9 @@ function handleClick(event) {
     var dataView = event.target.getAttribute('data-view');
     for (var x = 0; x < views.length; x++) {
       if (views[x].getAttribute('data-view') === dataView) {
-        views[x].className = ('class', 'view');
+        views[x].className = 'hidden';
       } else {
-        views[x].className = ('class', 'view hidden');
+        views[x].className = '.view';
       }
     }
   }
