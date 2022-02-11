@@ -1,10 +1,11 @@
-var task = document.querySelector('.task-list');
+var taskList = document.querySelector('.task-list');
+taskList.addEventListener('click', function (event) {
+  console.log('event.target:', event.target);
+  console.log('event.target.tagName:', event.target.tagName);
 
-function handleClick(event) {
-  console.log('event.target:' + ' ' + event.target.tagName);
-  if (event.target.tagName !== ('button')) {
-    task.closest('task-list-item');
-    console.log('closest:', task);
+  if (event.target.tagName !== 'BUTTON') {
+    return;
   }
-}
-task.addEventListener('click', handleClick);
+  var taskListItem = event.target.closest('.task-list-item');
+  console.log('closest: . task-list-item', taskListItem);
+});
