@@ -1,24 +1,24 @@
 var tabcontainer = document.querySelector('.tab-container');
-var tab = document.querySelector('.tab');
-var view = document.querySelector('view');
+var tabs = document.querySelectorAll('.tab');
+var views = document.querySelectorAll('.view');
 
 tabcontainer.addEventListener('click', handleClick);
 
 function handleClick(event) {
   if (event.target.matches('.tab')) {
-    for (var i = 0; i < tab.length; i++) {
-      if (tab[i] === event.target) {
-        tab.className = 'active';
+    for (var i = 0; i < tabs.length; i++) {
+      if (tabs[i] === event.target) {
+        tabs.className = 'active';
       } else {
-        tab.className = 'tab';
+        tabs.className = 'tab';
       }
     }
     var dataView = event.target.getAttribute('data-view');
-    for (var x = 0; x < view.length; x++) {
-      if (view[x].getAttribute('data-view') === dataView) {
-        view[x].className = ('class', 'view');
+    for (var x = 0; x < views.length; x++) {
+      if (views[x].getAttribute('data-view') === dataView) {
+        views[x].className = ('class', 'view');
       } else {
-        view[x].className = ('class', 'view hidden');
+        views[x].className = ('class', 'view hidden');
       }
     }
   }
