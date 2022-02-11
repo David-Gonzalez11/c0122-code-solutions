@@ -8,4 +8,5 @@ taskList.addEventListener('click', function (event) {
   }
   var taskListItem = event.target.closest('.task-list-item');
   console.log('closest: . task-list-item', taskListItem);
+  taskListItem.remove();
 });
