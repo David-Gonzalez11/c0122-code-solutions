@@ -5,10 +5,11 @@ function handleClick(event) {
   /* console.log('event was fired'); */
   if (isBulbOn === true) {
     div.className = 'firstdiv';
+    body.className = '';
 
   } else if (isBulbOn === false) {
     div.className = 'firstdiv off ';
-    body.className = '.back';
+    body.className = 'back';
 
   }
   isBulbOn = !isBulbOn;
