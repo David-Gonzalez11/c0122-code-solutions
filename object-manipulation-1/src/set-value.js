@@ -1,9 +1,6 @@
 /* exported setValue */
 function setValue(object, key, value) {
-/*
-name: object.name,
-key: object.key,
-value: object.value
+  var obj = object.key.value;
+  return obj;
 
-*/
 }
