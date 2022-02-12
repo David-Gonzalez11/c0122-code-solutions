@@ -12,12 +12,11 @@ return back the new array
 */
 function tail(array) {
   var arr = [];
-  if (array === []) {
-    return arr;
-  }
-  for (var i = 0; i < array.length; i++) {
+  for (var i = 1; i < array.length; i++) {
     if (i > 0) {
       arr.push(array[i]);
+    } else {
+      return arr;
     }
   }
   return arr;
