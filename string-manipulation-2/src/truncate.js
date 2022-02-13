@@ -1,2 +1,3 @@
 /* exported truncate */
-function truncate(length, string) {}
+function truncate(length, string) {
+}
