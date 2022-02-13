@@ -1,0 +1,14 @@
+.letter {
+  font-size: 20pt;
+  font-family: sans-serif;
+  color: aqua;
+}
+
+.incorrect-char {
+  color: red;
+  text-decoration: underline;
+}
+
+.correct-char {
+  color: darkgreen;
+}
