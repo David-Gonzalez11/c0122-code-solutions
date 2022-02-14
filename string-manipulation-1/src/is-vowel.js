@@ -6,13 +6,14 @@ if it is equal to a vowel return true
 otherwise return false
 */
 function isVowel(char) {
-  // var lowerChar = char.toLowerCase();
+  char.toLowerCase();
+
   if (
-    char === 'a' ||
+    char === 'A' ||
     char === 'E' ||
     char === 'I' ||
-    char === 'o' ||
-    char === 'u'
+    char === 'O' ||
+    char === 'U'
   ) {
     return true;
   } else {
