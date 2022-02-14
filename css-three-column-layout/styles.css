@@ -43,17 +43,9 @@ p {
   width: 90%;
 }
 
-div.columnqms {
-  width: 100%;
-}
-
 .fullcolumn {
   width: 100%;
   color: white;
-}
-
-div.columnmiddle {
-  width: 100%;
 }
 
 div.toolsbubble {
@@ -67,11 +59,6 @@ div.toolsbubble {
 
 .qmsimg {
   padding-left: 20%;
-}
-
-div.columnright {
-  width: 100%;
-  padding-right: 10%;
 }
 
 .title {
@@ -94,4 +81,9 @@ p.onboarding {
   width: 100%;
   padding-left: 5px;
   font-weight: bolder;
+}
+
+div.columnqms {
+  width: 100%/3;
+  padding-right: 5%;
 }
