@@ -1,0 +1,63 @@
+.container {
+  width: 1000px;
+  margin: auto;
+  background-color: #f7f8fa;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.column1 {
+  width: 25%;
+  padding-top: 2%;
+}
+
+.row {
+  display: flex;
+}
+
+.columnsbottom {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.btmimg {
+  width: 20%;
+  padding-left: 40%;
+  padding-bottom: 0;
+}
+
+div > h3 {
+  color: black;
+  font-size: 16px;
+  padding-top: 0;
+  font-family: Barlow, sans-serif;
+}
+
+.subheadings {
+  padding-left: 30%;
+  color: black;
+  font-family: Barlow, sans-serif;
+}
+
+.heading {
+  color: rgb(0 0 0);
+  margin: auto;
+}
+
+h2 {
+  color: black;
+  font-family: Barlow, sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+div > p {
+  font-size: 12px;
+  font-family: Barlow, sans-serif;
+  padding-bottom: 10px;
+  padding-left: 20%;
+  padding-top: 10%;
+}
