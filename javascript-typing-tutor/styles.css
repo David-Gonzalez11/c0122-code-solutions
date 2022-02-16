@@ -1,7 +1,7 @@
 .letter {
   font-size: 20pt;
   font-family: sans-serif;
-  color: aqua;
+  color: black;
 }
 
 .incorrect-char {
@@ -11,5 +11,4 @@
 
 .correct-char {
   color: darkgreen;
-  text-decoration: underline;
 }
