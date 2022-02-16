@@ -7,3 +7,9 @@
 //     }
 //   }
 // }
+
+// for loop over each character
+// create logic to know if its a vowel
+// check to see if is vowel
+// if vowel increment vowel count
+// return vowel count at end of for loop

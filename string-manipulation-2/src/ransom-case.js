@@ -1,8 +1,12 @@
 /* exported ransomCase */
 function ransomCase(string) {
-  var char = string.toLowerCase().split('');
-  for (var i = 0; i < char.length; i += 2) {
-    char[i] = char[i].toUpperCase();
+  var ransomString = '';
+  for (var i = 0; i < string.length; i++) {
+    if (i % 2 === 1) {
+      ransomString += string[i].toUpperCase();
+    } else {
+      ransomString += string[i].toLowerCase();
+    }
   }
-  return char.join('');
+  return ransomString;
 }
