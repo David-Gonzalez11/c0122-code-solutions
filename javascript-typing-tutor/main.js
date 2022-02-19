@@ -1,17 +1,15 @@
-// var typedletter = document.querySelectorAll('.letter');
+// query the dome for all span elements //
+var type = document.querySelectorAll('span');
+// query the dome for all span elements //
 
-// var words = document.querySelector('.words');
+function keyDown(event) {
 
-// function keyDown(event) {
+  if (type !== null) {
+    type.classList.add('.correct-char');
 
-// if (typedletter == null) {
-//   typedletter.className.remove('correct-char');
-//   typedletter.className.remove('incorrect-char');
-// } else if (typedletter === typedletter.textContent) {
-//   typedletter.className.add('correct-char');
-//   typedletter.className.remove('incorrect-char');
-// } else {
-//   typedletter.className.remove('correct-char');
-//   typedletter.className.add('incorrect-char');
-// }
-// typedletter.addEventListener('keydown', keyDown)
+  } else {
+    type.classList.add('.incorrect-char');
+
+  }
+}
+document.addEventListener('keydown', keyDown);

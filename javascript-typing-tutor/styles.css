@@ -12,3 +12,23 @@
 .correct-char {
   color: darkgreen;
 }
+
+.center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.container {
+  margin-top: 20%;
+}
+
+span {
+  white-space: pre;
+}
