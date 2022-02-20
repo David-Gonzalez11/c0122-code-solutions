@@ -5,18 +5,18 @@ define the function  by giving it a name
 if it is equal to a vowel return true
 otherwise return false
 */
-// function isVowel(char) {
-//   char.toLowerCase();
+function isVowel(char) {
+  char.toLowerCase();
 
-//   if (
-//     char === 'A' && 'a'
-//     char === 'E' && 'e'
-//     char === 'I' && 'i'
-//     char === 'O' && 'o'
-//     char === 'U' && 'u'
-//   ) {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// }
+  if (
+    char === 'A' ||
+    char === 'E' ||
+    char === 'I' ||
+    char === 'O' ||
+    char === 'U'
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+}
