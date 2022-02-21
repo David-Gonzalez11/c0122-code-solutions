@@ -1,11 +1,14 @@
 /* exported numVowels */
 // function numVowels(string) {
-//   var vowel = ['a', 'e', 'i', 'o', 'u'];
-//   for (var i = 0; i < string.length; i++) {
-//     if ((string[i] = 'a' || 'e' || 'i' || 'o' || 'u')) {
-//       return vowel[i];
+//   var vowel = 0;
+
+//   for (var i = 0; i <= string.length - 1; i++) {
+//     if (string.charAt(i) = 'a' || string.charAt(i) = 'e' || string.charAt(i) = 'i' || string.charAt(i) = 'o' || string.charAt(i) ='u') {
+//       vowel += 1;
 //     }
 //   }
+//   return vowel;
+
 // }
 
 // for loop over each character
