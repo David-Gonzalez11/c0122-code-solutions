@@ -3,34 +3,19 @@
 var yakko = {
   age: 14,
   name: 'Yakko',
-  role: 'brother',
-  describe: function () {
-    var description = this.name + ' is a ' +
-                      this.age + '-year-old Warner ' + this.role + '.';
-    return description;
-  }
+  role: 'brother'
 };
 
 var wakko = {
   age: 11,
   name: 'Wakko',
-  role: 'brother',
-  describe: function () {
-    var description = this.name + ' is a ' +
-                      this.age + '-year-old Warner ' + this.role + '.';
-    return description;
-  }
+  role: 'brother'
 };
 
 var dot = {
   age: 10,
   name: 'Dot',
-  role: 'sister',
-  describe: function () {
-    var description = this.name + ' is a ' +
-                      this.age + '-year-old Warner ' + this.role + '.';
-    return description;
-  }
+  role: 'sister'
 };
 
 var warnerPrototype = {
@@ -40,10 +25,6 @@ var warnerPrototype = {
     return description;
   }
 };
-
-delete dot.describe;
-delete wakko.describe;
-delete yakko.describe;
 
 Object.setPrototypeOf(yakko, warnerPrototype);
 Object.setPrototypeOf(wakko, warnerPrototype);
