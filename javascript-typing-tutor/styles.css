@@ -11,6 +11,7 @@
 
 .correct-char {
   color: darkgreen;
+  text-decoration: underline;
 }
 
 .center {
