@@ -33,3 +33,7 @@
 span {
   white-space: pre;
 }
+
+h1 {
+  display: inline;
+}
