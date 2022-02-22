@@ -13,4 +13,4 @@ console.log('typeof newFunction.__proto__', newFunction.__proto__);
 console.log(ExampleConstructor.prototype);
 console.log(typeof ExampleConstructor.prototype);
 
-console.log('example instanceof:', newFunction instanceof ExampleConstructor);
+console.log('newFunction instanceof:', newFunction instanceof ExampleConstructor);
