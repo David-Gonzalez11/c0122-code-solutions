@@ -33,3 +33,7 @@ span {
 h1 {
   display: inline;
 }
+
+.underline {
+  text-decoration: underline;
+}

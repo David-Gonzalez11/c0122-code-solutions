@@ -7,6 +7,7 @@ function keyDown(event) {
   if (event.key === $type[index].textContent) {
     $type[index].className = 'correct-char';
     index++;
+    $type[index].className = 'underline';
   } else {
     $type[index].className = 'incorrect-char';
   }
