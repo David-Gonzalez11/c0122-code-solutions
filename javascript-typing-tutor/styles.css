@@ -1,7 +1,8 @@
-.letter {
-  font-size: 20pt;
+span {
   font-family: sans-serif;
   color: black;
+  white-space: pre;
+  font-size: 40px;
 }
 
 .incorrect-char {
@@ -10,8 +11,7 @@
 }
 
 .correct-char {
-  color: darkgreen;
-  text-decoration: underline;
+  color: rgb(24 205 27);
 }
 
 .center {
@@ -28,10 +28,6 @@
 
 .container {
   margin-top: 20%;
-}
-
-span {
-  white-space: pre;
 }
 
 h1 {

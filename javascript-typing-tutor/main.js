@@ -1,28 +1,13 @@
-// var $type = document.querySelectorAll('span');
-// console.log($type);
-// function keyDown(event) {
+var $type = document.querySelectorAll('span');
+var index = 0;
+document.addEventListener('keydown', keyDown);
 
-//   var typedString = 'grumpy wizards make toxic brew';
-//   var correctString = "'grumpy' 'wizards' 'make' 'toxic' 'brew'";
-//   var currentCharIndex = typedString.length;
-//   console.log('working', event);
+function keyDown(event) {
 
-//   if (typedString[currentCharIndex].matches(correctString[currentCharIndex])) {
-//     $type[currentCharIndex].className = 'correctchar';
-//   } else {
-//     $type.classList.add('incorrectchar');
-//     $type.remove('correctchar');
-//   }
-
-// }
-// $type.addEventListener('keydown', keyDown);
-
-// );
-// node list check;
-// querySelectorAll check
-// event listener check //
-// keydown event  check
-
-// element.textContent//
-// element.className//
-// // vent.key//
+  if (event.key === $type[index].textContent) {
+    $type[index].className = 'correct-char';
+    index++;
+  } else {
+    $type[index].className = 'incorrect-char';
+  }
+}
