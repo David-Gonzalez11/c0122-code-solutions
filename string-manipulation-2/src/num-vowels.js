@@ -16,3 +16,15 @@
 // check to see if is vowel
 // if vowel increment vowel count
 // return vowel count at end of for loop
+
+function numVowels(string) {
+
+  var count = 0;
+  for (var i = 0; i < string.length(); i++) {
+    if (string.charAt(i) === 'a' || string.charAt(i) === 'e' || string.charAt(i) === 'i' ||
+                    string.charAt(i) === 'o' || string.charAt(i) === 'u') {
+      count++;
+    }
+  }
+  return count;
+}
