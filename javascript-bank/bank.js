@@ -1,16 +1,21 @@
-/* exported Bank */
+// /* exported Bank */
 // function Bank() {
 //   this.nextAccountNumber = 1;
 //   this.accounts = [];
 // }
 
 // Bank.prototype.openAccount = function (holder, balance) {
-//   if (balance === 0) {
+//   if (Number.isInteger(balance) && balance > 0) {
+//     this.accounts.push(new Account('balance'));
+//     for (var i = 0; i < this.accounts.length; i++) {
+
+//     }
+
+//   } else if (Number.isInteger(balance) !== 0) {
+
 //     return null;
-//   } else {
-
 //   }
-
+//   this.nextAccountNumber++;
 // };
 
 // Bank.prototype.getAccount = function (number) {
@@ -22,6 +27,13 @@
 // Bank.prototype.getTotalAssets = function () {
 //   if (this.accounts.length === 0) {
 //     return 0;
+//   } else {
+//     var totalBalance = 0;
+//     var balancess = this.accounts.filter(bank => bank.type === 'accounts');
+//     for (var i = 0; i < balancess.length; i++) {
+//       totalBalance += balancess[i];
+//     }
+//     return totalBalance;
 //   }
 // };
 
