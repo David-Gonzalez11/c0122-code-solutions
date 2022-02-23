@@ -1,6 +1,6 @@
 
 var count = 4;
-var countDown = null;
+var countDown;
 var countdownDisplay = document.querySelector('.countdown-display');
 
 function countdown() {
