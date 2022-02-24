@@ -23,29 +23,33 @@ Bank.prototype.openAccount = function (holder, balance) {
 // havent touched from here down //
 
 Bank.prototype.getAccount = function (number) {
-  if (this.openAccount !== (number)) {
-    return null;
-  } else {
-    return this.getAccount();
+  for (var i = 0; i < this.accounts.length; i++) {
+    if (this.accounts[i].number === number) {
+      return this.accounts[i];
+    }
+
   }
+  return null;
+
 };
 
 Bank.prototype.getTotalAssets = function () {
-  if (this.accounts.length === 0) {
-    return 0;
-  } else {
-    var totalBalance = 0;
-    for (var i = 0; i < this.accounts.length; i++) {
-      totalBalance += this.accounts[i];
+  var totalBalance = 0;
+  for (var i = 0; i < this.accounts.length; i++) {
+    if (this.accounts[i].getBalance()) {
+      totalBalance += this.accounts[i].getBalance();
     }
-    return totalBalance;
   }
+  return totalBalance;
 };
 
-// Account.prototype.deposit = function (amount) {
-//   if (Number.isInteger(amount) === true) {
-//     return true;
-//   } else {
-//     return false;
+// Bank.prototype.getTotalAssets = function () {
+//   var totalBalance = 0;
+//   for (var i = 0; i < this.accounts.length; i++) {
+//     if (this.accounts[i].getBalance()) {
+//       totalBalance += this.accounts[i].getBalance();
+
+//     }
 //   }
+//   return totalBalance;
 // };
