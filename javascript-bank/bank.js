@@ -6,38 +6,37 @@ function Bank() {
 
 Bank.prototype.openAccount = function (holder, balance) {
   if (Number.isInteger(balance) && balance > 0) {
-    this.accounts.push(new Account('balance'));
-    var newAccount = new Account(this.nextAccountNumber(balance));// check this too
+    // this.accounts.push(new Account(this.nextAccountNumber, holder));
+    var newAccount = new Account(this.nextAccountNumber, holder);
+    newAccount.deposit(balance);
+    this.accounts.push(newAccount);
+    this.nextAccountNumber++;
 
-    for (var i = 0; i < this.accounts.length; i++) {
-      newAccount.push(this.accounts);// check this part
-    }
+    return this.accounts.length;
 
   } else if (Number.isInteger(balance) !== 0) {
 
     return null;
   }
-  this.nextAccountNumber++;
 };
 
 // havent touched from here down //
 
-// Bank.prototype.getAccount = function (number) {
-//   if (this.openAccount !== (number)) {
-//     return null;
-//   } else {
-
-//   }
-// };
+Bank.prototype.getAccount = function (number) {
+  if (this.openAccount !== (number)) {
+    return null;
+  } else {
+    return this.accounts;
+  }
+};
 
 Bank.prototype.getTotalAssets = function () {
   if (this.accounts.length === 0) {
     return 0;
   } else {
     var totalBalance = 0;
-    var balancess = this.accounts.filter(bank => bank.type === 'accounts');
-    for (var i = 0; i < balancess.length; i++) {
-      totalBalance += balancess[i];
+    for (var i = 0; i < this.accounts.length; i++) {
+      totalBalance += this.accounts[i];
     }
     return totalBalance;
   }
