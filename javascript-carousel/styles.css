@@ -1,20 +1,32 @@
-.container {
+.hidden {
+  display: none;
+}
+
+.carousel-container {
   width: 50%;
   height: 50%;
   margin: auto;
+  display: flex;
 }
 
 .row {
   display: flex;
-  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .fas.hello {
-  color: red;
+  color: black;
   font-size: 50px;
   position: absolute;
   top: 20rem;
   left: 5rem;
+}
+
+.hi {
+  position: absolute;
+  top: 20rem;
+  left: 60rem;
+  font-size: 50px;
 }
 
 .column {
@@ -23,4 +35,43 @@
 
 .column-full {
   width: 100%;
+}
+
+.justify {
+  justify-content: center;
+  justify-content: flex-end;
+}
+
+.circles {
+  padding-top: 2rem;
+  margin-left: 40%;
+}
+
+.circlepadding {
+  padding-left: 1rem;
+}
+
+button {
+  background-color: none;
+  color: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+.fas.hi {
+  color: black;
+  font-size: 50px;
+  position: absolute;
+  top: 20rem;
+  left: 60rem;
+}
+
+.column-third {
+  width: 33%;
+  background-color: green;
 }
