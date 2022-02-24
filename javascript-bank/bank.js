@@ -26,7 +26,7 @@ Bank.prototype.getAccount = function (number) {
   if (this.openAccount !== (number)) {
     return null;
   } else {
-    return this.accounts;
+    return this.getAccount();
   }
 };
 
