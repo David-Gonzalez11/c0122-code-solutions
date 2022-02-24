@@ -24,6 +24,7 @@
 .hi {
   position: absolute;
   top: 20rem;
+  left: 60rem;
   font-size: 50px;
 }
 
@@ -42,6 +43,24 @@
 .circlepadding {
   padding-left: 1.5rem;
   margin-top: 4rem;
+  justify-content: flex-end;
+}
+
+.circles {
+  padding-top: 2rem;
+  margin-left: 40%;
+}
+
+/* .circlepadding {
+  padding-left: 1rem;
+} */
+
+button {
+  background-color: none;
+  color: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 li {

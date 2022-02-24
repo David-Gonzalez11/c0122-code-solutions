@@ -32,3 +32,9 @@
 // var circles = document.querySelector('.circles');
 // circles.addEventListener('click', circles);
 // console.log(circles);
+function arrow() {
+
+}
+var left = document.querySelector('i');
+left.addEventListener('click', arrow);
+// console.log(left);
