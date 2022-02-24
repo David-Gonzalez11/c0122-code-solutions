@@ -3,8 +3,7 @@
 }
 
 .carousel-container {
-  width: 50%;
-  height: 50%;
+  width: 1000px;
   margin: auto;
   display: flex;
 }
@@ -25,7 +24,6 @@
 .hi {
   position: absolute;
   top: 20rem;
-  left: 60rem;
   font-size: 50px;
 }
 
@@ -39,24 +37,11 @@
 
 .justify {
   justify-content: center;
-  justify-content: flex-end;
-}
-
-.circles {
-  padding-top: 2rem;
-  margin-left: 40%;
 }
 
 .circlepadding {
-  padding-left: 1rem;
-}
-
-button {
-  background-color: none;
-  color: none;
-  text-decoration: none;
-  border: none;
-  outline: none;
+  padding-left: 1.5rem;
+  margin-top: 4rem;
 }
 
 li {
@@ -67,10 +52,5 @@ li {
   color: black;
   font-size: 50px;
   position: absolute;
-  top: 20rem;
-  left: 60rem;
-}
-
-.column-third {
-  background-color: green;
+  align-items: right;
 }
