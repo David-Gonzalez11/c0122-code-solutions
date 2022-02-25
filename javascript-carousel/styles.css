@@ -5,31 +5,28 @@
 .carousel-container {
   width: 1000px;
   margin: auto;
-  display: flex;
 }
 
 .row {
   display: flex;
-  flex-wrap: nowrap;
 }
 
 .fas.hello {
   color: black;
-  font-size: 50px;
+  font-size: 100px;
   position: absolute;
-  top: 20rem;
-  left: 5rem;
+  right: 5rem;
 }
 
 .hi {
   position: absolute;
-  top: 20rem;
-  left: 60rem;
-  font-size: 50px;
+  font-size: px;
+  left: 2rem;
 }
 
 .column {
-  width: calc(100% / 5);
+  width: 100%;
+  margin-top: 50%;
 }
 
 .column-full {
@@ -38,6 +35,7 @@
 
 .justify {
   justify-content: center;
+  align-items: center;
 }
 
 .circlepadding {
@@ -48,7 +46,7 @@
 
 .circles {
   padding-top: 2rem;
-  margin-left: 40%;
+  font-size: 25px;
 }
 
 /* .circlepadding {
@@ -69,7 +67,7 @@ li {
 
 .fas.hi {
   color: black;
-  font-size: 50px;
+  font-size: 100px;
   position: absolute;
   align-items: right;
 }
