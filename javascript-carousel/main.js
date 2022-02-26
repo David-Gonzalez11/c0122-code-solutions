@@ -13,6 +13,7 @@
 //   } else if (event.target === $left) {
 //     currentIndex--;
 //     $img.setAttribute('src', array[currentIndex]);
+//     console.log('i was clicked');
 //   }
 // }
 
@@ -23,6 +24,8 @@
 //   } else if (event.target === $right) {
 //     currentIndex++;
 //     $img.setAttribute('src', array[currentIndex]);
+//     console.log('i was clicked');
+
 //   }
 // }
 
@@ -30,13 +33,16 @@
 
 // }
 // var circles = document.querySelector('.circles');
-// circles.addEventListener('click', circles);
+// circles.addEventListener('click', circle);
 // console.log(circles);
 
-// function arrow() {
-//   console.log('i was clicked');
-
-// }
 // var left = document.querySelector('i');
-// left.addEventListener('click', arrow);
-// console.log('i was clicked', left);
+// left.addEventListener('click', arrowRight);
+
+// // we know both the arrows work on click
+
+// // target the arrrows to chnage through the images and indexes as each button is clicked
+// // when the button on the right is clicked increement the current variables to be able tp display the next image at cettain index
+// // when the button on th left is clicked decrement the current variable to be abkle to display the next image at the index before
+// // add a query selector for all of the circles when they are clicked
+// // when the right button matches the index at which it was clickjed then show that image
