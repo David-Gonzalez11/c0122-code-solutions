@@ -32,7 +32,7 @@ function arrowRight(event) {
 function circle(event) {
   console.log('I was clciked');
 }
-var circles = document.querySelector('.circles');
+var circles = document.querySelectorAll('.circles');
 circles.addEventListener('click', circle);
 console.log(circles);
 
