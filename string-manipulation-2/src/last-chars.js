@@ -1,4 +1,8 @@
 /* exported lastChars */
 function lastChars(length, string) {
-  return string.slice(0, length);
+  var str = '';
+  for (var i = string.length - length; i < string.length; i++) {
+    str += string[i];
+  }
+  return str;
 }

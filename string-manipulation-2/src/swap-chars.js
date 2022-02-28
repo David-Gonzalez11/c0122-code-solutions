@@ -4,6 +4,17 @@
 // if second index letter, return the first index letter
 // return current index letter
 function swapChars(firstIndex, secondIndex, string) {
-  var str = string.length;
-  var sml = str.charAt(1) + str.substring(0, 1 + str.charAr(1)
+  var chars = '';
+  var first = string[firstIndex];
+  var second = string[secondIndex];
+  for (var i = 0; i < string.length; i++) {
+    if (i === firstIndex) {
+      chars += second;
+    } else if (i === secondIndex) {
+      chars += first;
+    } else {
+      chars += string[i];
+    }
+  }
+  return chars;
 }
