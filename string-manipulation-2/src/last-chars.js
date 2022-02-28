@@ -1,4 +1,4 @@
 /* exported lastChars */
 function lastChars(length, string) {
-  return string(length);
+  return string.slice(0, length);
 }

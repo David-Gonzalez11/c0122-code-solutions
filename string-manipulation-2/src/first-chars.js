@@ -1,5 +1,4 @@
 // /* exported firstChars */
-// function firstChars(length, string) {
-// for(var i = 0; i < string.length; i++){
-
-// }
+function firstChars(length, string) {
+  return string.slice(0, length);
+}
