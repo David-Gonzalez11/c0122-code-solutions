@@ -1,1 +1,4 @@
-/* exported dropRight */
+// /* exported dropRight */
+// function dropRight(array, count){
+
+// }
