@@ -55,11 +55,10 @@
 } */
 
 button {
-  background-color: none;
   color: none;
-  text-decoration: none;
+  background: none;
   border: none;
-  outline: none;
+  font-size: 1.5rem;
 }
 
 li {
@@ -70,4 +69,5 @@ li {
   color: black;
   font-size: 100px;
   align-items: right;
+  position: absolute;
 }
