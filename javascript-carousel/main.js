@@ -37,7 +37,7 @@ setInterval(function () {
   $img.setAttribute('src', array[currentIndex]);
   currentIndex++;
   if (currentIndex === array.length - 1) { currentIndex = 0; }
-}, 2000);
+}, 3000);
 clearInterval();
 var circles = document.querySelector('.circles');
 circles.addEventListener('click', event => circle(event));
