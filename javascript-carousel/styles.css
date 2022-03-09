@@ -46,8 +46,9 @@
 }
 
 .circles {
-  padding-top: 2rem;
   font-size: 25px;
+  position: relative;
+  right: 5rem;
 }
 
 /* .circlepadding {
@@ -70,4 +71,20 @@ li {
   font-size: 100px;
   align-items: right;
   position: absolute;
+}
+
+.filled {
+  background-color: black;
+  color: white;
+}
+
+.icons:hover {
+  background: black;
+  color: black;
+}
+
+.images {
+  position: relative;
+  right: 5rem;
+  bottom: 8rem;
 }

@@ -10,33 +10,36 @@ function arrowLeft(event) {
   if (currentIndex === 0) {
     currentIndex = array.length - 1;
     $img.setAttribute('src', array[4]);
-  } else{
+  } else {
     currentIndex--;
     $img.setAttribute('src', array[currentIndex]);
   }
 }
 
 function arrowRight(event) {
-  if (currentIndex === array.length - 1 ) {
-currentIndex = 0;
+  if (currentIndex === array.length - 1) {
+    currentIndex = 0;
+  } else {
+    currentIndex++;
+    $img.setAttribute('src', array[currentIndex]);
   }
-   else {
-currentIndex++;
-  $img.setAttribute('src', array[currentIndex]);
- }
 }
 
 function circle(event) {
-// currentIndex = parseInt(event.target.id)
-// $img.setAttribute('src', array[currentIndex]);
-// console.log(event.target)
-if(event.target.tagName === ('BUTTON')){
-  currentIndex = parseInt(event.target.id)
-$img.setAttribute('src', array[currentIndex]);
-}
+
+  if (event.target.tagName === ('BUTTON')) {
+    currentIndex = parseInt(event.target.id);
+    $img.setAttribute('src', array[currentIndex]);
+  }
 
 }
-
+setInterval(function () {
+  $img.setAttribute('src', array[currentIndex]);
+  currentIndex++;
+  if (currentIndex === array.length - 1) { currentIndex = 0; }
+}, 2000);
+clearInterval();
 var circles = document.querySelector('.circles');
-circles.addEventListener('click', (e) =>  circle(e));
-console.log(circles)
+circles.addEventListener('click', event => circle(event));
+
+setInterval(3000);
