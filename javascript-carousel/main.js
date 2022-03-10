@@ -39,7 +39,7 @@ function circle(event) {
 //   if (currentIndex === array.length - 1) { currentIndex = 0; }
 // }, 3000);
 // clearInterval();
-var circles = document.getElementsByTagName('BUTTON');
-circles.addEventListener('click', event => circle(event));
+// var circles = document.querySelector('I');
+// circles.addEventListener('click', event => circle(event));
 
 // setInterval(3000);
