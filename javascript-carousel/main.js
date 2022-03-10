@@ -33,13 +33,13 @@ function circle(event) {
   }
 
 }
-setInterval(function () {
-  $img.setAttribute('src', array[currentIndex]);
-  currentIndex++;
-  if (currentIndex === array.length - 1) { currentIndex = 0; }
-}, 3000);
-clearInterval();
-var circles = document.querySelector('.circles');
+// setInterval(function () {
+//   $img.setAttribute('src', array[currentIndex]);
+//   currentIndex++;
+//   if (currentIndex === array.length - 1) { currentIndex = 0; }
+// }, 3000);
+// clearInterval();
+var circles = document.getElementsByTagName('BUTTON');
 circles.addEventListener('click', event => circle(event));
 
-setInterval(3000);
+// setInterval(3000);
