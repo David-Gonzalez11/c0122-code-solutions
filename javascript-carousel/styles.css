@@ -31,7 +31,7 @@
 }
 
 .column-full {
-  width: 100%;
+  width: 90%;
 }
 
 .justify {
@@ -40,17 +40,14 @@
 }
 
 .circlepadding {
-  justify-content: flex-end;
-}
-
-/* .circlepadding {
   padding-left: 1rem;
-} */
+}
 
 button {
   color: none;
   background: none;
   border: none;
+  margin-right: 0.5rem;
 }
 
 li {
@@ -62,11 +59,6 @@ li {
   font-size: 100px;
   align-items: right;
   position: absolute;
-}
-
-.filled {
-  background-color: black;
-  color: white;
 }
 
 .images {

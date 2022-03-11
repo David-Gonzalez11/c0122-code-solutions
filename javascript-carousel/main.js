@@ -24,22 +24,21 @@ function arrowRight(event) {
     $img.setAttribute('src', array[currentIndex]);
   }
 }
-
-function circle(event) {
-
-  if (event.target.tagName === ('BUTTON')) {
-    currentIndex = parseInt(event.target.id);
+function circles(event) {
+  if (currentIndex === array.length - 1) {
+    currentIndex = 0;
+  } else {
+    currentIndex++;
     $img.setAttribute('src', array[currentIndex]);
   }
 
 }
-// setInterval(function () {
-//   $img.setAttribute('src', array[currentIndex]);
-//   currentIndex++;
-//   if (currentIndex === array.length - 1) { currentIndex = 0; }
-// }, 3000);
-// clearInterval();
-// var circles = document.querySelector('I');
-// circles.addEventListener('click', event => circle(event));
 
-// setInterval(3000);
+var dots = document.querySelector('.dots');
+dots.addEventListener('click', circles);
+setInterval(function () {
+  $img.setAttribute('src', array[currentIndex]);
+  currentIndex++;
+  if (currentIndex === array.length - 1) { currentIndex = 0; }
+}, 3000);
+clearInterval();
