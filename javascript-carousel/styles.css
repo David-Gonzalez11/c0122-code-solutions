@@ -31,7 +31,7 @@
 }
 
 .column-full {
-  width: 90%;
+  width: 100%;
 }
 
 .justify {
@@ -65,4 +65,8 @@ li {
   position: relative;
   right: 5rem;
   bottom: 8rem;
+}
+
+.dots {
+  padding-right: 0.5rem;
 }
