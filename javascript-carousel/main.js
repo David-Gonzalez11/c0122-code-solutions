@@ -24,14 +24,12 @@ function arrowRight(event) {
     $img.setAttribute('src', array[currentIndex]);
   }
 }
+var btn = document.getElementsByTagName('BUTTON');
 function circles(event) {
-  if (currentIndex === array.length - 1) {
-    currentIndex = 0;
-  } else {
-    currentIndex++;
-    $img.setAttribute('src', array[currentIndex]);
-  }
-
+  const activeIndex = event.target.dataset.index;
+  currentIndex = activeIndex;
+  $img.setAttribute('src', array[activeIndex]);
+  btn[currentIndex].classList.add('black');
 }
 
 var dots = document.querySelector('.dots');

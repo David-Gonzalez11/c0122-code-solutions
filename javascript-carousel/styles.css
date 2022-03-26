@@ -48,6 +48,7 @@ button {
   background: none;
   border: none;
   margin-right: 0.5rem;
+  border-radius: 50%;
 }
 
 li {
@@ -69,4 +70,8 @@ li {
 
 .dots {
   padding-right: 0.5rem;
+}
+
+.black {
+  background-color: black;
 }
