@@ -44,11 +44,10 @@
 }
 
 button {
-  color: none;
-  background: none;
-  border: none;
+  background-color: white;
   margin-right: 0.5rem;
   border-radius: 50%;
+  border: none;
 }
 
 li {
@@ -73,5 +72,5 @@ li {
 }
 
 .black {
-  background-color: black;
+  color: grey;
 }

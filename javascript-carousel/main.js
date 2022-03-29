@@ -30,10 +30,12 @@ function circles(event) {
   currentIndex = activeIndex;
   $img.setAttribute('src', array[activeIndex]);
   btn[currentIndex].classList.add('black');
+  btn[currentIndex - 1].classList.remove('black');
 }
 
 var dots = document.querySelector('.dots');
 dots.addEventListener('click', circles);
+
 setInterval(function () {
   $img.setAttribute('src', array[currentIndex]);
   currentIndex++;
