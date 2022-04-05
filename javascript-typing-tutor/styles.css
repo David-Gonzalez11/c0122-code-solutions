@@ -1,0 +1,39 @@
+span {
+  font-family: sans-serif;
+  color: black;
+  white-space: pre;
+  font-size: 40px;
+}
+
+.incorrect-char {
+  color: red;
+  text-decoration: underline;
+}
+
+.correct-char {
+  color: rgb(24 205 27);
+}
+
+.center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.container {
+  margin-top: 20%;
+}
+
+h1 {
+  display: inline;
+}
+
+.underline {
+  text-decoration: underline;
+}
